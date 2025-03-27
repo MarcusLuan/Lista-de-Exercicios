@@ -1,0 +1,5 @@
+salario = float(input("Digite seu salário: "))
+anos = int(input("Anos que se passaram: "))
+porcentagem = float(input("Porcentagem atual: "))
+total = salario + salario * ((porcentagem/100)*(2**anos))
+print(f"Seu salário em {anos} anos será de R${total}")
